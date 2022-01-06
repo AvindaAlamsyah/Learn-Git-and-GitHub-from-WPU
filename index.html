@@ -19,10 +19,20 @@
       </li>
       <li>git add .: Add file contents to the index</li>
       <li>git status: Show the working tree status</li>
-      <li>git commit -m "[judul commit]": Record changes to the repository</li>
+      <li>git commit -m [judul commit]: Record changes to the repository</li>
       <li>git log: Show commit logs</li>
       <li>git log --all --decorate --oneline --graph: Oneline log</li>
       <li>git checkout: Switch branches or restore working tree files</li>
+      <li>git merge: Join two or more development histories together</li>
+      <li>
+        git branch --merged: Only list branches whose tips are reachable from
+        the specified commit (HEAD if not specified)
+      </li>
+      <li>
+        git branch -d [nama branch]: Delete a branch. The branch must be fully
+        merged in its upstream branch, or in HEAD
+      </li>
+      <li>git branch -D [nama branch]: Shortcut for --delete --force</li>
     </ul>
 
     <script src="script.js"></script>
